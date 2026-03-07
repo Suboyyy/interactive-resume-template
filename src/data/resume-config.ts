@@ -11,8 +11,8 @@ export const resumeConfig: ResumeConfig = {
       fr: 'Ingénieur Réseau Télécom',
     },
     subtitle: {
-      en: 'First job',
-      fr: 'Premier emploi',
+      en: '3rd-year student at the University of Technology of Troyes, specializing in Network and Telecom. I manage my school’s student information system and am eager to develop my skills through courses, associations, and personal lab projects. Currently seeking a 6-month internship as an apprentice engineer to deepen my skills.',
+      fr: "Étudiant en 3ème année à l’Université de Technologie de Troyes, branche Réseau et Télécom, j'administre le système d'information étudiant de mon école. Je cherche à développer mes compétences aux travers des cours, associations et lab personnel. Je recherche actuellement un stage de 6 mois en tant qu'apprenti ingénieur afin d'approfondir mes compétences.",
     },
     location: 'Troyes, France',
   },
@@ -20,7 +20,7 @@ export const resumeConfig: ResumeConfig = {
   // ===== SEO (used in <head> meta tags) =====
   seo: {
     title: 'Antoine Dufils — Network and Telecom Engineer',
-    description: '',
+    description: '3rd-year student at the University of Technology of Troyes, specializing in Network and Telecom. I manage my school’s student information system and am eager to develop my administration skills through courses, associations, and personal lab projects. Currently seeking a 6-month internship as an apprentice engineer to deepen my knowledge and skills.',
   },
 
   // ===== LANGUAGES =====
@@ -49,23 +49,27 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Fluent', fr: 'Courant' }, details: 'Linguaskill' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'Linguaskill B2+' },
       ],
     },
     {
-      title: { en: 'Frontend', fr: 'Frontend' },
+      title: { en: 'Web Development', fr: 'Développement web' },
       type: 'badges',
       items: [
         { name: 'React' },
         { name: 'TypeScript' },
+        { name: 'Node.js' },
       ],
     },
     {
-      title: { en: 'Backend', fr: 'Backend' },
+      title: { en: 'Programming Languages', fr: 'Langages de programmation' },
       type: 'badges',
       items: [
-        { name: 'Node.js' },
         { name: 'Python' },
+        { name: 'Java'},
+        { name: 'JavaScript' },
+        { name: 'C' },
+        { name: 'Git' },
       ],
     },
     {
@@ -86,6 +90,14 @@ export const resumeConfig: ResumeConfig = {
         { name: 'Proxmox' },
       ],
     },
+    {
+      title: { fr: 'Bureautique', en: 'Office tools' },
+      type: 'badges',
+      items: [
+        { name: 'Microsoft Office' },
+
+      ],
+    }
   ],
 
   // ===== PROFESSIONAL EXPERIENCES =====
@@ -168,7 +180,7 @@ export const resumeConfig: ResumeConfig = {
     {
       id: 'utt-net-group-treasurer',
       association: { en: 'UTT Net Group', fr: 'UTT Net Group' },
-      role: { fr: 'Trésorier', en: 'Treasurer' },
+      role: { fr: 'Trésorier - Administrateur Systèmes', en: 'Treasurer - Systems Administrator' },
       type: { fr: 'Association', en: 'Volunteer' },
       period: { fr: 'août 2024 - aujourd’hui', en: 'Aug 2024 - Present' },
       description: {
@@ -216,7 +228,7 @@ export const resumeConfig: ResumeConfig = {
         fr: 'Coordinateur de l\'UTT Arena 2025, compétition esport, et responsable développement sur l\'édition 2024.',
         en: 'Coordinator for UTT Arena 2025, an esports competition, and lead developer for the 2024 edition.',
       },
-      techs: ['Git', 'TypeScript', 'React', 'Next.js', 'Express.js', 'Node.js', 'GitHub', 'Prisma'],
+      techs: ['Git', 'TypeScript', 'React', 'Next.js', 'Express.js', 'Prisma'],
       details: {
         context: {
           fr: 'UTT Arena : plus grande compétition esport du Grand Est, organisée à l’UTT. 23e édition (28–30 novembre 2025) : 496 joueurs et ~100 bénévoles.',
@@ -255,6 +267,17 @@ export const resumeConfig: ResumeConfig = {
       url: 'https://weather-app.example.com',
       github: 'https://github.com/janedoe/weather-app',
     },**/
+    {
+      id: 'turbobouffe',
+      title: { en: 'TurboBouffe', fr: 'TurboBouffe' },
+      description: {
+        en: 'Real-time order and inventory management app for festivals, events, and more.',
+        fr: "Application de gestion de commandes et d'inventaire en temps réel pour des festivals, évenements et autres.",
+      },
+      techs: ['TypeScript', 'React', 'NestJS', 'Next.js', 'Node.js', 'Git', 'Prisma'],
+      url: 'https://turbobouffe.dev.uttnetgroup.fr',
+      github: 'https://github.com/ungdev/turbobouffe-api',
+    }
   ],
 
   // ===== EDUCATION =====
@@ -275,19 +298,13 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'Hiking', fr: 'Randonnée' },
+      title: { en: 'Hiking, Ski, Climbing', fr: 'Randonnée, Ski, Escalade' },
     },
     {
       title: { en: 'Cooking', fr: 'Cuisine' },
     },
     {
-      title: { en: 'Traveling', fr: 'Voyages' },
-      details: [
-        { en: 'Japan', fr: 'Japon' },
-        { en: 'Ivorian coast', fr: 'Côte d\'Ivoire' },
-        { en: 'Italy', fr: 'Italie' },
-        { en: '...', fr: '...' },
-      ]
+      title: { en: 'Associative Life', fr: 'Monde associatif' },
     }
   ],
 

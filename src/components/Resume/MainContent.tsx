@@ -39,7 +39,7 @@ export function MainContent() {
 
       {/* Experiences */}
       <div className="relative">
-        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-6 pb-2 border-b border-resume-primary/20">
+        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-3 pb-2 border-b border-resume-primary/20">
           {resolve(labels.sections.experience)}
         </h2>
         <div className="space-y-2">
@@ -81,8 +81,8 @@ export function MainContent() {
 
       {/* Associatives Experiences */}
       {associativeExperiences && associativeExperiences.length > 0 && labels.sections.associativeExperience && (
-        <div className="relative">
-        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-6 pb-2 border-b border-resume-primary/20">
+        <div className="mt-2">
+        <h2 className="text-sm font-bold tracking-widest text-resume-text mb-3 pb-2 border-b border-resume-primary/20">
           {resolve(labels.sections.associativeExperience)}
         </h2>
         <div className="space-y-2">
@@ -127,8 +127,8 @@ export function MainContent() {
 
       {/* Projects */}
       {projects && projects.length > 0 && labels.sections.projects && (
-        <div className="mt-8">
-          <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
+        <div className="mt-2">
+          <h2 className="text-sm font-bold tracking-widest text-resume-text mb-2 pb-2 border-b border-resume-primary/20">
             {resolve(labels.sections.projects)}
           </h2>
           <div className="space-y-1">
@@ -147,7 +147,7 @@ export function MainContent() {
       )}
 
       {/* Education */}
-      <div className="mt-8">
+      <div className="mt-2">
         <h2 className="text-sm font-bold tracking-widest text-resume-text mb-4 pb-2 border-b border-resume-primary/20">
           {resolve(labels.sections.education)}
         </h2>
