@@ -108,7 +108,7 @@ export const resumeConfig: ResumeConfig = {
       type: { en: 'Part-time / Student job', fr: 'Emploi étudiant' },
       period: { en: 'Jun 2025 - Present', fr: 'juin 2025 - aujourd\'hui' },
       description: {
-        fr: 'Gestion du son, de la lumière et du stream lors d\'événements à l\'UTT. Résolution de problèmes matériel en temps réel et gestion du stress.',
+        fr: 'Gestion du son, de la lumière et du stream lors d\'événements à l\'UTT. Résolution de problèmes matériels en temps réel et gestion du stress.',
         en: 'Managed audio, lighting, and live streaming for university events. Troubleshot hardware issues in real time under pressure.',
       },
       techs: ['Audio', 'Lighting', 'Video', 'Streaming'],
@@ -121,8 +121,8 @@ export const resumeConfig: ResumeConfig = {
           fr: [
             'Régie son et lumière pendant des événements (installation, tests, exploitation)',
             'Mise en place et supervision du stream',
-            'Diagnostic et résolution de pannes matériel en temps réel',
-            'Coordination avec les organisateurs pour respecter le déroulé',
+            'Diagnostic et résolution de pannes matérielles en temps réel',
+            'Coordination avec les organisateurs pour respecter le déroulé de l\'événement',
           ],
           en: [
             'Operated audio and lighting during events (setup, checks, live operation)',
@@ -189,7 +189,7 @@ export const resumeConfig: ResumeConfig = {
       techs: ['Dolibarr', 'Linux', 'Proxmox', 'Docker', 'Kubernetes'],
       isHighlighted: true,
       subItem: {
-        title: { fr: 'Vice-trésorier (août 2024 - janv. 2025)', en: 'Assistant Treasurer (Aug 2024 - Jan 2025)' },
+        title: { fr: 'Vice-trésorier (août 2024 - janv. 2025) | Trésorier depuis janv. 2025', en: 'Assistant Treasurer (Aug 2024 - Jan 2025) | Treasurer since Jan 2025' },
         description: {},
       },
       details: {
@@ -235,9 +235,9 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           fr: [
-            "L'UTT Arena est la plus grande compétition esport du Grand-Est ayant lieu tous les ans dans les locaux de l'UTT. Accueillant 496 joueurs et une centaine de bénévoles poru sa 23ème édition du 28 au 30 novembre 2025, elle est un événement majeur du calendrier étudiant de l'UTT.",
-            "Coordinateur sur l'édition 2050, je m'occupe avant tout de la coordination des équipes et de la répartition des tâches à effectuer. J'ai également un rôle administratif important auprès de l'UTT, la préfecture et des partenaires notamment.",
-            "Je m'occupe également de la gestion de deux pôles que sont l'animation et le développement sur lesquels j'effectue des tâches aux côtés des autres membres afin de les aider. Les 7 coordinateurs travaillent ensemble durant près d'un an afin de proposer un évenement de qualité aux joueurs et au public.", 
+            "L'UTT Arena est la plus grande compétition esport du Grand Est ayant lieu tous les ans dans les locaux de l'UTT. Accueillant 496 joueurs et une centaine de bénévoles pour sa 23e édition du 28 au 30 novembre 2025, elle est un événement majeur du calendrier étudiant de l'UTT.",
+            "Coordinateur sur l'édition 2025, je m'occupe avant tout de la coordination des équipes et de la répartition des tâches à effectuer. J'ai également un rôle administratif important auprès de l'UTT, la préfecture et des partenaires notamment.",
+            "Je m'occupe également de la gestion de deux pôles que sont l'animation et le développement sur lesquels j'effectue des tâches aux côtés des autres membres afin de les aider. Les 7 coordinateurs travaillent ensemble durant près d'un an afin de proposer un événement de qualité aux joueurs et au public.",
           ],
           en: [
             "UTT Arena is one of the largest esports competitions in the Grand Est region, held annually at UTT. With 496 players and around 100 volunteers for its 23rd edition from November 28 to 30, 2025, it is a major event in the UTT student calendar.",
@@ -271,7 +271,7 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'TurboBouffe', fr: 'TurboBouffe' },
       description: {
         en: 'Real-time order and inventory management app for festivals, events, and more.',
-        fr: "Application de gestion de commandes et d'inventaire en temps réel pour des festivals, évenements et autres.",
+        fr: "Application de gestion de commandes et d'inventaire en temps réel pour des festivals, événements et autres.",
       },
       techs: ['TypeScript', 'React', 'NestJS', 'Next.js', 'Node.js', 'Git', 'Prisma'],
       url: 'https://turbobouffe.dev.uttnetgroup.fr',
